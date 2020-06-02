@@ -15,13 +15,13 @@ It is assumed that Docker is installed on your machine prior to usage. Please se
 5. Run `docker-compose up -d` to start the machine. DB2 will take a few minutes to perform initial installation and setup.
 6. You can monitor the status by finding the container name by running `docker ps` then showing the logs by running `docker logs <container-name>`. You should see a message similar to 'Setup has completed.' when the machine has finished the initial setup.
 7. You can connect to the database using your DB browser of choice using the following settings:
-
-```.env
-HOST: 127.0.0.1
-PORT: 50000
-USERNAME: db2inst1
-PASSWORD: <your_password>
-DB_NAME: <your_db_name>
-```
+    
+    ```.env
+    HOST: 127.0.0.1
+    PORT: 50000
+    USERNAME: db2inst1
+    PASSWORD: <your_password>
+    DB_NAME: <your_db_name>
+    ```
 
     
