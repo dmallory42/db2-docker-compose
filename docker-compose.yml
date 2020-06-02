@@ -1,0 +1,13 @@
+version: '3'
+services:
+  db:
+    image: ibmcom/db2
+    privileged: true
+    restart: always
+    ports:
+      - "50000:50000"
+    environment:
+      LICENSE: accept
+      DB2INST1_PASSWORD: ${DB2INST1_PASSWORD}
+      DBNAME: ${DBNAME}
+      DB2COMM: TCPIP
