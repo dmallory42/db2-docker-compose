@@ -8,7 +8,7 @@ It is assumed that Docker is installed on your machine prior to usage. Please se
 
 ## Usage Instructions
 
-1. Clone the repo using `command goes here`
+1. Clone the repo using `git clone https://github.com/dmallory42/db2-docker-compose.git`
 2. Navigate to the folder using Bash/ZSH/your Terminal of choice.
 3. Use the command `cp .env.sample .env` to create a copy of the environment file.
 4. Open the `.env` file and edit it to set the DB2 database name and password as desired.
